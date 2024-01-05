@@ -1,3 +1,7 @@
+import { goalOrientedRobot } from "./goalOrientedRobot";
+import { routeRobot } from "./routeRobot";
+import VillageState from "./VillageState";
+
 function countSteps(state, robot, memory) {
   for (let turn = 0; ; turn++) {
     if (state.parcels.length == 0) {
